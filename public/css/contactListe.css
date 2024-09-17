@@ -1,0 +1,67 @@
+/* Style général pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les en-têtes du tableau */
+table th {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 15px;
+    border-bottom: 2px solid #0056b3;
+}
+
+/* Style pour les cellules du tableau */
+table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style pour les lignes du tableau */
+table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style pour les boutons d'action */
+.update {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.update:hover {
+    background-color: #218838;
+}
+
+.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.delete:hover {
+    background-color: #c82333;
+}
